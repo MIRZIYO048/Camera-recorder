@@ -8,23 +8,23 @@ button {
 button:last-of-type {
   margin: 0;
 }
-
+#container{
+  margin: 0 auto;
+  width: 1100px;
+}
 p.borderBelow {
   margin: 0 0 20px 0;
   padding: 0 0 20px 0;
 }
 
-video {
-  vertical-align: top;
-  --width: 25vw;
-  width: var(--width);
-  height: calc(var(--width) * 0.5625);
-}
+#gum{
+  width: 400px;
+  height: 300px;
+  margin-left: 100px;
 
-video:last-of-type {
-  margin: 0 0 20px 0;
 }
-
-video#gumVideo {
-  margin: 0 20px 20px 0;
+#recorded{
+  margin-left: 100px;
+  width: 400px;
+  height: 300px;
 }
